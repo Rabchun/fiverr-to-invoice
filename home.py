@@ -30,12 +30,12 @@ class Record:
              self.phones.append(Phone(phone))
 
     def delete_phone(self, phone):
-        for https://github.com/Rabchun/goit-pycore-hw-0 
+        for https://github.com/Rabchun/goit-pycore-hw-0/blob/main/book.json 
         
     p in self.phones:
     if p.value == phone:
         self.phones.remove(p)
-        return https://github.com/Rabchun/goit-pycore-hw-0 
+        return https://github.com/Rabchun/goit-pycore-hw-0/blob/main/book.json 
     raise ValueError("Телефон не знайдено")
 
     def edit_phone(self, old_phone, new_phone):
@@ -43,7 +43,7 @@ class Record:
             if p.value == old_phone:
                 p.value = new_phone
                 return
-            raise ValueError("Телефон https://github.com/Rabchun/goit-pycore-hw-0 не знайдено")
+            raise ValueError("Телефон https://github.com/Rabchun/goit-pycore-hw-0/blob/main/book.json не знайдено")
         def find_phone(self, phone):
         for p in self.phones:
             if p.value == phone:
